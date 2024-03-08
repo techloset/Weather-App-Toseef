@@ -4,9 +4,9 @@ import animationLogo from "../assets/logos/loaderImage.svg";
 import weatherIcon from "../assets/logos/weatherLogo.svg";
 
 const weatherLogo = {
-   weatherTopLogo,
-   loaderImage,
-   animationLogo,
-   weatherIcon,
+  weatherTopLogo,
+  loaderImage,
+  animationLogo,
+  weatherIcon,
 };
 export default weatherLogo;

@@ -1,4 +1,3 @@
-// imageConstants.ts
 import clearDay from "../assets/bgCurrentWeather/clearDay.svg";
 import clearNight from "../assets/bgCurrentWeather/clearNight.svg";
 import fewCloudsDay from "../assets/bgCurrentWeather/cloudyDay.svg";
@@ -13,18 +12,18 @@ import snowDayBackground from "../assets/bgCurrentWeather/snowDay.svg";
 import snowNightBackground from "../assets/bgCurrentWeather/snowNight.svg";
 
 const backgrounds = {
-   clearDay,
-   clearNight,
-   fewCloudsDay,
-   fewCloudsNight,
-   cloudyDayBackground,
-   cloudyNightBackground,
-   rainDayBackground,
-   rainNightBackground,
-   stormDayBackground,
-   stormNightBackground,
-   snowDayBackground,
-   snowNightBackground,
+  clearDay,
+  clearNight,
+  fewCloudsDay,
+  fewCloudsNight,
+  cloudyDayBackground,
+  cloudyNightBackground,
+  rainDayBackground,
+  rainNightBackground,
+  stormDayBackground,
+  stormNightBackground,
+  snowDayBackground,
+  snowNightBackground,
 };
 
 export default backgrounds;
