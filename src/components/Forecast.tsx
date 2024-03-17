@@ -177,12 +177,12 @@ export default function Forecast({ lat, lon }: ForecastProps) {
 
             <div className="temp flex flex-col p-2 lg:flex-row md:flex-row ">
               <div className="max">
-                <p className="text-neutral-50 text-[10px] sm:text-sm font-bold leading-tight ">
+                <p className="text-neutral-50 text-[14px] sm:text-sm font-bold leading-tight ">
                   {`${Math.floor(firstDayMaxTemp)}ºC`}
                 </p>
               </div>
               <div className="min lg:ml-3 md:ml-2">
-                <p className=" text-slate-500  text-[10px] sm:text-sm  font-bold leading-tight">
+                <p className=" text-slate-500  text-[14px] sm:text-sm  font-bold leading-tight">
                   {`${Math.floor(firstDayMinTemp)}ºC`}
                 </p>
               </div>
@@ -201,12 +201,12 @@ export default function Forecast({ lat, lon }: ForecastProps) {
 
             <div className="temp flex flex-col p-2 lg:flex-row md:flex-row">
               <div className="max">
-                <p className="text-neutral-50  text-[10px] sm:text-sm  font-bold leading-tight ">
+                <p className="text-neutral-50  text-[14px] sm:text-sm  font-bold leading-tight ">
                   {`${Math.floor(secondDayMaxTemp)}ºC`}
                 </p>
               </div>
               <div className="min lg:ml-3 md:ml-2">
-                <p className=" text-slate-500  text-[10px] sm:text-sm  font-bold leading-tight">
+                <p className=" text-slate-500  text-[14px] sm:text-sm  font-bold leading-tight">
                   {`${Math.floor(secondDayMinTemp)}ºC`}
                 </p>
               </div>
@@ -226,12 +226,12 @@ export default function Forecast({ lat, lon }: ForecastProps) {
 
             <div className="temp flex flex-col p-2 lg:flex-row md:flex-row">
               <div className="max">
-                <p className="text-neutral-50  text-[10px] sm:text-sm  font-bold leading-tight ">
+                <p className="text-neutral-50  text-[14px] sm:text-sm  font-bold leading-tight ">
                   {`${Math.floor(thirdDayMaxTemp)}ºC`}
                 </p>
               </div>
               <div className="min lg:ml-3 md:ml-2">
-                <p className=" text-slate-500  text-[10px] sm:text-sm  font-bold leading-tight">
+                <p className=" text-slate-500  text-[14px] sm:text-sm  font-bold leading-tight">
                   {`${Math.floor(thirdDayMinTemp)}ºC`}
                 </p>
               </div>
@@ -250,12 +250,12 @@ export default function Forecast({ lat, lon }: ForecastProps) {
 
             <div className="temp flex flex-col p-2 lg:flex-row md:flex-row">
               <div className="max">
-                <p className="text-neutral-50  text-[10px] sm:text-sm  font-bold leading-tight ">
+                <p className="text-neutral-50  text-[14px] sm:text-sm  font-bold leading-tight ">
                   {`${Math.floor(forthDayMaxTemp)}ºC`}
                 </p>
               </div>
               <div className="min lg:ml-3 md:ml-2">
-                <p className=" text-slate-500  text-[10px] sm:text-sm  font-bold leading-tight">
+                <p className=" text-slate-500  text-[14px] sm:text-sm  font-bold leading-tight">
                   {`${Math.floor(forthDayMinTemp)}ºC`}
                 </p>
               </div>
@@ -275,12 +275,12 @@ export default function Forecast({ lat, lon }: ForecastProps) {
 
             <div className="temp flex flex-col p-2 lg:flex-row md:flex-row">
               <div className="max">
-                <p className="text-neutral-50  text-[10px] sm:text-sm  font-bold leading-tight ">
+                <p className="text-neutral-50  text-[14px] sm:text-sm  font-bold leading-tight ">
                   {`${Math.floor(fifthDayMaxTemp)}ºC`}
                 </p>
               </div>
               <div className="min lg:ml-3 md:ml-2">
-                <p className=" text-slate-500  text-[10px] sm:text-sm  font-bold leading-tight">
+                <p className=" text-slate-500  text-[14px] sm:text-sm  font-bold leading-tight">
                   {`${Math.floor(fifthDayMinTemp)}ºC`}
                 </p>
               </div>

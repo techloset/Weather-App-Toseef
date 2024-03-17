@@ -131,14 +131,14 @@ export default function CurrentWeather({ lat, lon }: CurrentWeatherProps) {
         : getIcon === "50n"
         ? `url(${stormNightBackground})`
         : "initial",
-    height: "75vh",
+    height: "90%",
     backgroundSize: "cover",
     marginTop: "12px",
   };
 
   return (
     <div
-      className="bottom-left border border-transparent flex-shrink-0 relative w-full rounded-[8px] flex flex-col items-center justify-between"
+      className="bottom-left border border-transparent flex-shrink-0 relative w-full  rounded-[8px] flex flex-col items-center justify-between"
       style={styles}
     >
       <div className="top-side-image border border-transparent w-[90%] h-[10%]  mt-1 sm:mt-3 sm:mb-2 mb-6  flex justify-between ">

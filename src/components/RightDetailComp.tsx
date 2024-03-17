@@ -42,7 +42,7 @@ export default function RightDetailComp({ lat, lon }: CurrentWeatherProps) {
 
       <ul className="flex flex-col p-4 border border-transparent sm:my-2 h-[88%]">
         <li className="flex h-[20%] md:h-[50px] my-5 items-center border-b-2 border-[#1c1c27]">
-          <span className="w-[16px] h-[32px] mr-3">
+          <span className="w-[16px] mt-4 h-[32px] mr-3">
             <img className="" src={feelsLikeImg} alt="" />
           </span>
           <p className="ml-2 font-[700px] text-[16px] text-[#BFBFD4]">
@@ -56,7 +56,7 @@ export default function RightDetailComp({ lat, lon }: CurrentWeatherProps) {
         </li>
 
         <li className="flex h-[20%] md:h-[50px] my-2 items-center border-b-2 border-[#1c1c27]">
-          <span className="w-[16px] h-[32px] mr-3">
+          <span className="w-[16px] mt-4 h-[32px] mr-3">
             <img className="" src={windSpeedImg} alt="" />
           </span>
           <p className="ml-2 font-[700px] text-[16px] text-[#BFBFD4]">
@@ -69,10 +69,10 @@ export default function RightDetailComp({ lat, lon }: CurrentWeatherProps) {
           </p>
         </li>
         <li className="flex h-[20%] my-2 items-center md:h-[50px] border-b-2 border-[#1c1c27]">
-          <span className="w-[16px] h-[32px] mr-3">
+          <span className="w-[16px] mt-4 h-[32px] mr-3">
             <img className="" src={humidityImg} alt="" />
           </span>
-          <p className="ml-2 font-[700px] text-[16px] text-[#BFBFD4]">
+          <p className="ml-2 align-center justify-center font-[700px] text-[16px] text-[#BFBFD4]">
             Air Humidity
           </p>{" "}
           <p className="ml-auto me-2 font-bold text-[16px] text-white">
